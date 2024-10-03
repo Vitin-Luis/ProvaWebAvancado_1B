@@ -1,0 +1,17 @@
+POST http://localhost:3000/user HTTP/1.1
+content-type: application/json
+
+{
+    "email": "victor@outlook.com",
+    "name": "Juaum",
+    "password": "1234567",
+    "bio": "Eu sou o sol"
+    
+}
+
+POST http://localhost:3000/posts/create HTTP/1.1
+content-type: application/json
+
+{
+    
+}
